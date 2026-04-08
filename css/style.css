@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main */
+html, body {
+    font-family: 'Segoe UI', 'Tahoma', 'Verdana', sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+/* navbar */
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+#navbar h1 a {
+    color: #fff;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar ul li a {
+    color: #ccc;
+    padding: 10px 20px;
+    display: block;
+}
+
+#navbar ul li a.active,
+#navbar ul li a:hover {
+    background: #e8a020;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* showcase */
+#showcase {
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+    min-height: 300px;
+}
+
+#showcase h1 {
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+/* button */
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background: transparent;
+    border: 2px solid #ccc;
+    color: #ccc;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background: #e8a020;
+    border-color: #e8a020;
+    color: #fff;
+}
+
+/* home info */
+#home-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#info-img {
+    background: url('../img/photo-1.jpg') no-repeat center center/cover;
+    min-height: 300px;
+}
+
+#info-content {
+    background: #f9f9f9;
+    padding: 40px;
+}
+
+#info-content h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#info-content p {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* home boxes */
+#home-boxes {
+    background: #333;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.box {
+    padding: 40px;
+    text-align: center;
+    color: #aaa;
+}
+
+.box .icon {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.box h3 {
+    color: #aaa;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 14px;
+}
+
+.box.highlight {
+    background: #e8a020;
+    color: #fff;
+}
+
+.box.highlight h3 {
+    color: #fff;
+}
+
+/* footer */
+footer {
+    background: #444;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}

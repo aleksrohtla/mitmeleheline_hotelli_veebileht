@@ -1,1 +1,0 @@
-# mitmeleheline_hotelli_veebileht
