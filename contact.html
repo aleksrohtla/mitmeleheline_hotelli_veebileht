@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <title>Hotell | Kontakt</title>
+    <title>KHT | Kontakt</title>
 </head>
 <body>
 
     <header>
         <nav id="navbar">
-            <div>
-                <h1><a href="index.html">VOCO</a></h1>
+            <div class="container">
+                <h1><a href="index.html">KHT</a></h1>
                 <ul>
                     <li><a href="index.html">Avaleht</a></li>
                     <li><a href="about.html">Kirjeldus</a></li>
@@ -22,33 +22,35 @@
         </nav>
     </header>
 
-    <section id="info-content" style="max-width: 800px; margin: 40px auto; border-radius: 5px;">
-        <h2>Võta <span style="color: #e8a020;">Ühendust</span> Meiega</h2>
-        <p>Palun täida all olev vorm</p>
-        <form action="#">
-            <div style="margin-bottom: 15px;">
-                <label for="nimi" style="display:block; margin-bottom: 5px; color: #444;">Nimi</label>
-                <input type="text" id="nimi" style="width: 100%; padding: 10px; border: 1px solid #ccc;">
-            </div>
-            <div style="margin-bottom: 15px;">
-                <label for="email" style="display:block; margin-bottom: 5px; color: #444;">Email</label>
-                <input type="email" id="email" style="width: 100%; padding: 10px; border: 1px solid #ccc;">
-            </div>
-            <div style="margin-bottom: 15px;">
-                <label for="sonum" style="display:block; margin-bottom: 5px; color: #444;">Sõnum</label>
-                <textarea id="sonum" rows="6" style="width: 100%; padding: 10px; border: 1px solid #ccc;"></textarea>
-            </div>
-            <button type="submit" class="btn" style="background: #333; color: #fff; cursor: pointer;">Saada</button>
-        </form>
+    <section class="contact-form py-30">
+        <div class="container">
+            <h2>Võta <span class="text-primary">Ühendust</span> Meiega</h2>
+            <p>Palun täida all olev vorm</p>
+            <form action="#">
+                <div style="margin-bottom: 15px;">
+                    <label for="nimi" style="display:block; margin-bottom: 5px;">Nimi</label>
+                    <input type="text" id="nimi" style="width: 100%; padding: 10px; border: 1px solid #ddd;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="email" style="display:block; margin-bottom: 5px;">Email</label>
+                    <input type="email" id="email" style="width: 100%; padding: 10px; border: 1px solid #ddd;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label for="sonum" style="display:block; margin-bottom: 5px;">Sõnum</label>
+                    <textarea id="sonum" rows="6" style="width: 100%; padding: 10px; border: 1px solid #ddd;"></textarea>
+                </div>
+                <button type="submit" style="background: #333; color: #fff; padding: 10px 30px; border: none; cursor: pointer;">Saada</button>
+            </form>
+        </div>
     </section>
 
     <section id="home-boxes">
         <div class="box">
-            <i class="icon">🏠</i>
+            <i class="icon">🏢</i>
             <h3>Aadress</h3>
             <p>Kopli 1A, Tartu</p>
         </div>
-        <div class="box highlight">
+        <div class="box">
             <i class="icon">📞</i>
             <h3>Telefon</h3>
             <p>5555 5555</p>
@@ -56,12 +58,12 @@
         <div class="box">
             <i class="icon">✉️</i>
             <h3>Email</h3>
-            <p>info@voco.ee</p>
+            <p>info@kht.ee</p>
         </div>
     </section>
 
     <footer>
-        <p>VOCO &copy;2019, Kõik Õigused On Kaitstud</p>
+        <p>KHT &copy;2021, Kõik Õigused On Kaitstud</p>
     </footer>
 
 </body>
